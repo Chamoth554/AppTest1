@@ -32,7 +32,7 @@
     ],
     "cli": {
       "version": ">= 3.13.0",
-      "appVersionSource": "app.json"
+      "appVersionSource": "remote"
     },
     "extra": {
       "eas": {
