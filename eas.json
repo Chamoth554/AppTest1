@@ -7,17 +7,7 @@
       "android": {
         "buildType": "apk",
         "credentialsSource": "remote"
-      },
-      "ios": {
-        "simulator": true
       }
-    },
-    "production": {
-      "android": {
-        "buildType": "app-bundle",
-        "credentialsSource": "remote"
-      },
-      "ios": {}
     }
   }
 }
