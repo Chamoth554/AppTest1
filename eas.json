@@ -5,7 +5,8 @@
   "build": {
     "preview": {
       "android": {
-        "buildType": "apk"
+        "buildType": "apk",
+        "credentialsSource": "remote"
       },
       "ios": {
         "simulator": true
@@ -13,11 +14,10 @@
     },
     "production": {
       "android": {
-        "buildType": "app-bundle"
+        "buildType": "app-bundle",
+        "credentialsSource": "remote"
       },
-      "ios": {
-        "simulator": false  // or leave empty for default archive
-      }
+      "ios": {}
     }
   }
 }
