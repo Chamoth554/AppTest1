@@ -9,12 +9,8 @@
     "userInterfaceStyle": "automatic",
     "newArchEnabled": true,
     "ios": {
-      "supportsTablet": true
-    },
-    
-    "cli": {
-      "version": ">= 3.13.0",
-      "appVersionSource": "app.json"
+      "supportsTablet": true,
+      "buildNumber": "1.0.0"
     },
     "android": {
       "package": "com.yourname.seoulceylon",
@@ -45,6 +41,10 @@
     ],
     "experiments": {
       "typedRoutes": true
+    },
+    "cli": {
+      "version": ">= 3.13.0",
+      "appVersionSource": "app.json"
     },
     "extra": {
       "eas": {
