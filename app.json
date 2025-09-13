@@ -11,6 +11,11 @@
     "ios": {
       "supportsTablet": true
     },
+    
+    "cli": {
+      "version": ">= 3.13.0",
+      "appVersionSource": "app.json"
+    },
     "android": {
       "package": "com.yourname.seoulceylon",
       "versionCode": 1,
